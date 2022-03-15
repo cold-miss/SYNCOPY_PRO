@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYNCOPY</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/dafault.css">
+    <link rel="stylesheet" href="css/pc.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 767px)">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- <script src="js/poster.js"></script> -->
+    <script src="js/main.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script> -->
+</head>
+<body>
+    <header class="main-header container">
+        <div class="header_logo">
+            <a href="#">
+                <img src="./images/ICON/header_logo.svg" alt="">
+            </a>
+        </div>
+
+        <nav id="gnb">
+            <ul>
+                <li><a href="#">ABOUT US</a>
+                    <!-- <ul class="sub">
+                        <li><a href="#">Filmography</a></li>
+                    </ul> -->
+                </li>
+                <li><a href="#">MOVIES</a>
+                    <!-- <ul class="sub">
+                        <li><a href="#">Batman begins</a></li>
+                        <li><a href="#">Inception</a></li>
+                        <li><a href="#">Interstellar</a></li>
+                        <li><a href="#">Man of steel</a></li>
+                    </ul> -->
+                </li>
+                <li><a href="#">LOCATION</a></li>
+                <li><a href="#">NEWS</a></li>
+            </ul>
+        </nav>
+        
+        <div class="rightmenu">
+            <div class="search pc-only">
+                <input type="search" id="search" placeholder="Search...">
+                <a href="#">
+                    <img src="./images/ICON/search.svg" alt="">
+                </a>
+            </div>    
+            <div class="sitemap_btn pc-only">
+                <img src="./images/ICON/PCtoggle.svg" alt="sitemap">
+            </div>
+            
+            <!-- 모바일용 토글버튼 -->
+            
+            <button class="mobile_toggle_btn mobile-only">
+                <img src="./images/ICON/mobile_toggle.svg" alt="toggle">
+            </button>
+        </div>
+    </header>
+<!-- 
+    <div id="main-visual">
+        <div id="wowslider-container1">
+            <div class="ws_images"><ul>
+                <li><img src="data1/images/batmanbeginsmain2.jpg" alt="" title="" id="wows1_0"/></li>
+                <li><img src="data1/images/interstellar_bg.jpg" alt="" title="" id="wows1_1"/></li>
+                <li><a href="http://wowslider.net"><img src="data1/images/tenet_bg.jpg" alt="css slideshow" title="" id="wows1_2"/></a></li>
+                <li><img src="data1/images/oppenheimer_main.jpg" alt="" title="" id="wows1_3"/></li>
+            </ul></div>
+            <div class="ws_bullets"><div>
+                <a href="#" title=""><span><img src="data1/tooltips/batmanbeginsmain2.jpg" alt=""/>1</span></a>
+                <a href="#" title=""><span><img src="data1/tooltips/interstellar_bg.jpg" alt=""/>2</span></a>
+                <a href="#" title=""><span><img src="data1/tooltips/tenet_bg.jpg" alt=""/>3</span></a>
+                <a href="#" title=""><span><img src="data1/tooltips/oppenheimer_main.jpg" alt=""/>4</span></a>
+            </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">css slider</a> by WOWSlider.com v9.0</div>
+            <div class="ws_shadow"></div>
+            </div>	
+            <script type="text/javascript" src="engine1/wowslider.js"></script>
+            <script type="text/javascript" src="engine1/script.js"></script>
+    </div> -->
+
+    <!-- 슬라이더 컨테이터 -->
+    <div class="main-visual-title">
+        <div id="main-visual" class="swiper slider1">
+              <div class="swiper-wrapper">
+                <!-- 슬라이더 콘텐츠 -->
+                <div class="swiper-slide s1"></div>
+                <div class="swiper-slide s2"></div>
+                <div class="swiper-slide s3"></div>
+                <div class="swiper-slide s4"></div>
+                
+                <!-- 하단 버튼 -->
+                <div class="swiper-pagination"></div>
+                
+                <!-- 이동 화살표 -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div><!-- swiper-->
+        </div>
+        <div class="title">
+            <h3>
+                <span>JULY. 2023</span>
+                <br> COMING SOON
+            </h3>
+            <button class="see-movie-info-btn">
+                    SEE MOVIE INFO
+            </button>
+        </div>
+    </div>
+
+    <main>
+        <!--마우스 반응형 ㅠㅠ--> 
+        <!-- <div class="movieposters">
+            <ul class="wrapper2">
+              <li>
+                    <img src="./images/movieposter/batman_begins_poster.jpg" alt="">
+              </li>
+              <li>
+                  <img src="./images/movieposter/inception_poster.jpg" alt="">
+              </li>
+              <li>
+                  <img src="./images/movieposter/interstellar_poster.jpg" alt="">
+              </li>
+              <li>
+                  <img src="./images/movieposter/manofsteel_poster.jpg" alt="">
+              </li>
+              <li>
+                  <img src="./images/movieposter/Thedarkknight_poster.jpg" alt="">
+              </li>
+              <li>
+                  <img src="./images/movieposter/TENET_POSTER.jpg" alt="">
+              </li>
+              <div>
+                  <img src="./images/movieposter/dunkirk_poster.jpg" alt="">
+              </div>
+              <li>
+                  <img src="./images/movieposter/Thedarkknight_rises_poster.jpg" alt="">
+              </li>
+              <li>
+                  <img src="./images/movieposter/Theprestige_poster.jpg" alt="">
+              </li>
+            </div>
+        </div> -->
+      <section id="movies">
+        <h3>MOVIES</h3>
+        <div #swiperRef="movie" class="swiper movieposters">
+            <div class="swiper-wrapper2">
+              <div class="swiper-slide2 poster1">
+                    <img src="./images/movieposter/batman_begins_poster.jpg" alt="">
+              </div>
+              <div class="swiper-slide2 poster2">
+                  <img src="./images/movieposter/inception_poster.jpg" alt="">
+              </div>
+              <div class="swiper-slide2 poster3">
+                  <img src="./images/movieposter/interstellar_poster.jpg" alt="">
+              </div>
+              <div class="swiper-slide2 poster4">
+                  <img src="./images/movieposter/manofsteel_poster.jpg" alt="">
+              </div>
+              <div class="swiper-slide2 poster5">
+                  <img src="./images/movieposter/Thedarkknight_poster.jpg" alt="">
+              </div>
+              <div class="swiper-slide2 poster6">
+                  <img src="./images/movieposter/TENET_POSTER.jpg" alt="">
+              </div>
+              <div class="swiper-slide2 poster7">
+                  <img src="./images/movieposter/dunkirk_poster.jpg" alt="">
+              </div>
+              <div class="swiper-slide2 poster8">
+                  <img src="./images/movieposter/Thedarkknight_rises_poster.jpg" alt="">
+              </div>
+              <div class="swiper-slide2 poster9">
+                  <img src="./images/movieposter/Theprestige_poster.jpg" alt="">
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="movie-right-bottom">
+            <button class="all-movies">
+                ALL MOVIE
+            </button>
+        </div>
+            
+          <!-- <p class="append-buttons">
+            <button class="prepend-2-slides"></button>
+            <button class="prepend-slide"></button>
+            <button class="append-slide"></button>
+            <button class="append-2-slides"></button>
+          </p> -->
+                
+     </section>    
+
+        <section id="news">
+            <div class="newstitle">
+                <h3>NEWS</h3>
+            </div>
+            <div class="newscontainer">
+                <div class="newsleft">
+                    <div class="article-img">
+                        <img src="./images/ARTICLE/nolan_youtube_thumbnail01.jpg" alt="20tips from christopher nolan">
+                    </div>
+                    <p class="label">
+                        10 Screenwriting Tips from Christopher Nolan - Interview on writing The Dark Knight and Tenet - youtube
+                    </p>
+                </div>
+                <div class="newsright">
+                    <div class="article">
+                        <div class="article-img">
+                            <img src="./images/ARTICLE/nolan_youtube_thumbnail02.jpg" alt="article2">
+                        </div>
+                        <div class="article-text">
+                            <p>
+                            ‘It’s Tricky’: Christopher Nolan Assembles the ‘Tenet’ Puzzle   
+                            </p>
+                            <p class="copy-by">
+                                @COMPLEX Media
+                            </p>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="article-img">
+                            <img src="./images/ARTICLE/nolan_youtube_thumbnail03.jpg" alt="article2">
+                        </div>
+                        <div class="article-text">
+                            <p>
+                            Christopher Nolan on His Viewing Habits, the 'Hard Job' of Making Films and Why He... 
+                            </p>
+                            <p class="copy-by">
+                                @PEOPLE MAGAZINE
+                            </p>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="article-img">
+                            <img src="./images/ARTICLE/nolan_youtube_thumbnail04.jpg" alt="article2">
+                        </div>
+                        <div class="article-text">
+                            <p>
+                            Chris Nolan Wrote an Interstellar Comic to Explain the Backstory ...   
+                            </p>
+                            <p class="copy-by">
+                                @TIMES
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news-right-bottom">
+                <button class="view-more">
+                    VIEW MORE
+                </button>
+            </div>
+        </section> <!--news-->
+
+
+        <section id="magazine">
+            <h3>MAGAZINE</h3>
+            <div #swiperRef="magazine" class="swiper magazines">
+                <div class="swiper-wrapper3">
+                  <div class="swiper-slider3 magazine">
+                        <img src="./images/magazine cover/magazinecover01.jpg" alt="magazine">
+                  </div>
+                  <div class="swiper-slider3 magazine">
+                        <img src="./images/magazine cover/magazinecover02.png" alt="magazine">
+                  </div>
+                  <div class="swiper-slider3 magazine">
+                      <img src="./images/magazine cover/magazinecover03.jpg" alt="magazine">
+                  </div>
+                  <div class="swiper-slider3 magazine">
+                      <img src="./images/magazine cover/magazinecover05.jpg" alt="magazine">
+                  </div>
+                  <div class="swiper-slider3 magazine">
+                      <img src="./images/magazine cover/magazinecover06.png" alt="magazine">
+                  </div>
+                  <div class="swiper-slider3 magazine">
+                      <img src="./images/magazine cover/magazinecover07.jpg" alt="magazine">
+                  </div>
+                  <div class="swiper-slider3 magazine">
+                      <img src="./images/magazine cover/magazinecover08.jpg" alt="magazine">
+                  </div>
+                  <div class="swiper-slider3 magazine">
+                      <img src="./images/magazine cover/magazinecover09.jpg" alt="magazine">
+                  </div>
+                  <div class="swiper-slider3 magazine">
+                      <img src="./images/magazine cover/magazinecover10.jpg" alt="magazine">
+                  </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="magazine-right-bottom">
+                <button class="all-magazine">
+                    ALL MAGAZINE
+                </button>
+            </div>
+         </section>
+    </main> 
+
+
+    <footer id="mainfooter">
+        <div class="footer-info">
+            <div class="header_logo">
+                <a href="#">
+                <img src="./images/ICON/header_logo.svg" alt="logo">
+                </a>
+            </div>
+            <div class="footer-middle">
+                <p class="footer-info-text">
+                    Standingford House, 26 Cave St, Oxford OX4 1BA ENGLAND  | 
+                    <img src="./images/ICON/phone_icon.svg" alt="phone">
+                    +1 310-285-9000  
+                </p>
+                <p class="copy">Copyright ⓒ SYNCOPY Corporate All Rights Reserved.
+                </p>
+            </div>
+            <div class="sns-group">
+                <ul>
+                    <li><a href="#"><img src="./images/ICON/e-mail.svg" alt="e-mail"></a></li>
+                    <li><a href="#"><img src="./images/ICON/facebook_logo.svg" alt="facebook"></a></li>
+                    <li><a href="#"><img src="./images/ICON/twitter_logo.svg" alt="twitter"></a></li>
+                    <li><a href="#"><img src="./images/ICON/youtube_logo.svg" alt="youtube"></a></li>
+                    <li><a href="#"><img src="./images/ICON/instagram_logo.svg" alt="instagram"></a></li>
+                    <li><a href="#"><img src="./images/ICON/snapchat_logo.svg" alt="snapchat"></a></li>
+                    <li><a href="#"><img src="./images/ICON/tiktok_logo.svg" alt="tiktok"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- 사이트맵 레이어 팝업창 -->
+    <div class="sitemap-modal pc-only">
+        <ul>
+            <li><a href="#">ABOUT US</a>
+                <ul class="sitemap-sub">
+                    <li><a href="#">Filmography</a></li>
+                </ul>
+            </li>
+            <li><a href="#">MOVIES</a>
+                <ul class="sitemap-sub">
+                    <li><a href="#">Batman begins</a></li>
+                    <li><a href="#">Inception</a></li>
+                    <li><a href="#">Interstellar</a></li>
+                    <li><a href="#">Man of steel</a></li>
+                </ul>
+            </li>
+            <li><a href="#">LOCATION</a></li>
+            <li><a href="#">NEWS</a>
+                <ul class="sitemap-sub">
+                    <li><a href="#">News articles</a></li>
+                    <li><a href="#">Megazine</a></li>
+                </ul>
+            </li>
+        </ul>
+        
+    </div> <!--site map modal-->
+
+    <script src="js/swiper.js"></script>
+
+</body>
+</html>  
